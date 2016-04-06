@@ -52,5 +52,10 @@ namespace ClaseOchoEjercicio8
         {
             return new Centimetro(numero);
         }
+
+        public static Centimetro DevolverUnCentimetro()
+        {
+            return new Centimetro();//Segunda manera de devolver un objeto sin tener constructores publicos.
+        }
     }
 }
